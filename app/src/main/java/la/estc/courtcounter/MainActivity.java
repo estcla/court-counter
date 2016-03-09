@@ -72,4 +72,16 @@ public class MainActivity extends AppCompatActivity {
         score_b += 1;
         displayForTeamB(score_b);
     }
+
+
+    /**
+     * Clears the score for Team A and B.
+     */
+
+    public void reset(View view) {
+        score_a = 0;
+        score_b = 0;
+        displayForTeamA(score_a);
+        displayForTeamB(score_b);
+    }
 }
